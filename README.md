@@ -1,12 +1,11 @@
-# Projet StageHunter
-# 🚀 StageHunter - Job Board Étudiant
+#  StageHunter 
 
-Projet réalisé en PHP/MySQL avec une architecture .
+Projet réalisé en PHP/MySQL .
 
-## 🔗 Voir le site en ligne
-👉 **[Cliquez ici pour tester le site](http://bibi.alwaysdata.net)**
+##  Voir le site en ligne
+ **[Cliquez ici pour tester le site](http://bibi.alwaysdata.net)**
 
-## 🛠️ Fonctionnalités
+##  Fonctionnalités
 - Gestion des rôles (Admin, Entreprise, Candidat)
 - Sécurité (Hashage mot de passe, Protection CSRF/XSS)
 - API Externe (Hunter.io pour vérification email, API Gouv pour SIRET)
