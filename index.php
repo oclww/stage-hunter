@@ -54,11 +54,12 @@ $offres = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </span>
 
                 <?php if ($_SESSION['user']['role'] == 'entreprise'): ?>
+                    <a href="dashboard.php" class="bouton-login" style="background-color: #8e44ad; margin-right: 5px;">Mes Candidats</a>
                     <a href="ajouter_offre.php" class="bouton-login" style="background-color: #f39c12; margin-right: 5px;">+ Offre</a>
                 <?php endif; ?>
 
                 <?php if ($_SESSION['user']['role'] == 'admin'): ?>
-                    <a href="admin.php" class="bouton-login" style="background-color: #27ae60; margin-right: 5px;">Admin</a>
+                    <a href="admin.php" class="bouton-login" style="background-color: #27ae60; margin-right: 5px;">Admin Global</a>
                 <?php endif; ?>
                 
                 <a href="logout.php" class="bouton-login" style="background-color: #e74c3c;">Déconnexion</a>
