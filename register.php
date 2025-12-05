@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $password_hash = password_hash($password_clair, PASSWORD_DEFAULT);
             
             // 👇 TA CLÉ API HUNTER ICI
-            $api_key = "TA_CLE_HUNTER_ICI"; 
+            $api_key = "dacc718c28b91ada2a43d75e578c0bf57c63e652"; 
 
             $url = "https://api.hunter.io/v2/email-verifier?email=$val_email&api_key=$api_key";
 
